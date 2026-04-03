@@ -2,7 +2,7 @@
 
 ## 🚀 Overview
 
-This is a modern **Product Management Application (Prodify)** built using **Next.js and Tailwind CSS**. The application allows users to manage products efficiently by performing CRUD operations (Create, Read, Update, Delete) with additional features like search, image upload, and dark mode.
+This is a modern **Product Management Application (Prodify)** built using **Next.js and Tailwind CSS**. The application allows users to manage products efficiently by performing CRUD operations (Create, Read, Update, Delete) with additional features like search, image upload.
 
 The app is fully client-side and uses **browser localStorage** for data persistence, making it lightweight and easy to run without a backend.
 
