@@ -60,7 +60,7 @@ export default function ProductCard({
           </span>
 
           <p className="text-lg font-bold text-gray-900 dark:text-gray-100">
-            ${Number(product.price).toFixed(2)}
+            ${Number(product.price)}
           </p>
         </div>
       </div>

@@ -20,7 +20,7 @@ const poppins = Poppins({
 export const metadata = {
   title: "Prodify - Product Management App",
   description:
-    "A product management application built with Next.js and Tailwind CSS.",
+    "A product management application. Add, view, edit, delete, and search products with image URL or drag-and-drop upload support.",
 };
 
 export default function RootLayout({ children }) {
@@ -28,9 +28,9 @@ export default function RootLayout({ children }) {
     <html
       lang="en"
       suppressHydrationWarning
-      className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} h-full antialiased`}
+      className={`${poppins.variable} h-full antialiased`}
     >
-      <body className="min-h-full bg-gray-50 transition-colors dark:bg-gray-950">
+      <body className="min-h-full bg-gray-50 transition-colors">
         {children}
       </body>
     </html>
