@@ -265,7 +265,6 @@ export default function ProductForm({
             name="price"
             placeholder="Enter product price"
             min="0"
-            step="0.01"
             value={formData.price}
             onChange={handleChange}
             className="w-full rounded-2xl border border-gray-300 bg-white px-4 py-3 text-sm text-gray-700 outline-none transition focus:border-gray-500 focus:ring-2 focus:ring-gray-200 dark:border-gray-700 dark:bg-gray-950 dark:text-gray-100 dark:focus:border-gray-500 dark:focus:ring-gray-800"
