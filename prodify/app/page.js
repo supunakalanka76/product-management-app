@@ -83,7 +83,7 @@ export default function HomePage() {
           <div className="mb-8 flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
             <div>
               <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">
-                Product Management
+                Prodify a Product Management Application
               </h1>
 
               <p className="mt-2 max-w-2xl text-sm text-gray-600 dark:text-gray-400">
